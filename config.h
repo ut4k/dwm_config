@@ -2,7 +2,7 @@
 
 /* appearance */
 static const char *fonts[] = {
-	"UbuntuMono:size=15"
+	"UbuntuMono:size=18"
 };
 static const char dmenufont[]       = "UbuntuMono:size=13";
 static const char normbordercolor[] = "#444444";
@@ -16,7 +16,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 
-static const unsigned int gappx     = 10;        /* gap pixel between windows */
+static const unsigned int gappx     = 9;        /* gap pixel between windows */
 
 
 /* tagging */
@@ -31,7 +31,6 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Chromium", NULL,       NULL,       1 << 1,       0,           -1 },
 };
 
 /* layout(s) */
